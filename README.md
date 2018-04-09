@@ -76,3 +76,19 @@ hdfs://localhost/
 	├── [        99] allen
 	├── [         1] platform
 ```
+
+
+### 2. display directory and sort by mtime desc
+
+```bash
+java -jar hdfs-tree_2.10-1.0.jar -r -l 3 -d 2 -s mtime hdfs://localhost/
+```
+
+```bash
+hdfs://localhost/
+├── [2018-02-05 09:44:07] user
+	├── [2018-04-02 22:50:19] allen
+	├── [2018-02-05 09:44:07] platform
+	├── [2017-08-06 11:18:50] hive
+```
+
