@@ -56,7 +56,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <!--cause default source setting is 1.5 and the default target setting is 1.5 -->
                     <source>${jvm.version}</source>
                     <target>${jvm.version}</target>
                 </configuration>
