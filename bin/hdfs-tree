@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export CLASSPATH=${HDFS_CONF_DIR}:${HDFS_TREE_HOME}/target/hdfs-tree_2.10-1.0.jar
+
+java -cp $CLASSPATH com.jacoffee.HDFSTree $@
