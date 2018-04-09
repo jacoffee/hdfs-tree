@@ -78,7 +78,7 @@ hdfs://localhost/
 ```
 
 
-### 2. display directory and sort by mtime desc
+### 3. display directory and sort by mtime desc
 
 ```bash
 java -jar hdfs-tree_2.10-1.0.jar -r -l 3 -d 2 -s mtime hdfs://localhost/
