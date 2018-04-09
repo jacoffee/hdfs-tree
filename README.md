@@ -13,7 +13,7 @@ This is useful when you want to check the disk usage of hdfs, just like what we 
 
 ## Documentation
 
-Possible parameters you can pass with HDFSTree are as follows:
+Possible parameters you can pass with hdfs-tree are as follows:
 
 ```bash
 Usage: hdfs-tree [OPTION]
